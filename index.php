@@ -7,8 +7,11 @@
         <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
     </head>
     <body>
+        <?php
+            $h1 = 'Ciao Classe 4';
+        ?>
         <div class="container">
-            <h1>Ciao Classe 4</h1>
+            <h1><?php echo $h1; ?></h1>
         </div>
     </body>
 </html>
